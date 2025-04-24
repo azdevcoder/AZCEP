@@ -85,7 +85,7 @@
             const cep = document.getElementById('cep').value;
             
             if (cep) {
-                fetch(`http://127.0.0.1:5000/consulta_ibge?cep=${cep}`)
+                fetch(https://azdevcoder.github.io/azcep.github.io/consulta_ibge?cep=${cep}`)
                     .then(response => response.json())
                     .then(data => {
                         const resultadoDiv = document.getElementById('resultado');
